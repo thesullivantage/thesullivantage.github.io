@@ -13,6 +13,10 @@
     <!-- /// Favicons ////////  -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
 
 
     <!-- /// Template CSS ////////  -->
@@ -43,6 +47,7 @@
 
     <!-- /// Custom Icon Font ////////  -->
     <link rel="stylesheet" href="layout/css/iconfontcustom/icon-font-custom.css">
+    <link rel="stylesheet" href="./alter.css">
 
 
     <!-- /// Modernizr ////////  -->
@@ -94,9 +99,6 @@
                         </li>
                         <li>
                             <a href="#technical-skills">Technical Skills</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
 
@@ -172,10 +174,13 @@
                                     <li>Full Name: John Michael Sullivan</li>
                                     <li>Date of Birth: June 11, 1996</li>
                                     <li>Nationality: United States</li>
-                                    <li>Mobile Phone: (404)-375-7101</li>
+                                    <li>
+                                        Mobile:
+                                        <a href="tel:+4043757101">(404) 375-7101</a>  
+                                    </li>
                                     <li>
                                         Email:
-                                        <a href="mailto:jack.sullivan96@gmail.com">jack.sullivan96@gmail.com</a>
+                                        <a href="mailto:thesullivantage@gmail.com">thesullivantage@gmail.com</a>
                                     </li>
                                 </ul>
 
@@ -364,7 +369,7 @@
                             <div class="cv-section-title">
 
                                 <h2>
-                                    <span>My Portfolio</span>
+                                    <span>Web Development Portfolio</span>
                                 </h2>
 
                             </div>
@@ -373,18 +378,18 @@
                         </div>
                         <!-- end .cv-section -->
 
-                        <div class="portfolio-filter">
+                        <!-- <div class="portfolio-filter">
 
                             <ul>
-                                <!-- <li>
+                                <li>
                                 	<a class="active" data-filter="*" href="#">All</a>
-                                </li> -->
+                                </li>
                                 <li>
                                     Web Development
                                 </li>
                             </ul>
 
-                        </div>
+                        </div> -->
                         <!-- end .portfolio-filter -->
 
                     </div>
@@ -411,13 +416,17 @@
                                         <h3 style="position: relative; margin: 0px auto;">
                                             <a href="https://dry-chamber-42198.herokuapp.com">Deployed (With Map Issue)</a>
                                         </h3>
-                                        
+
                                         <h3 style="position: relative; margin: 0px auto;">
-                                            <a href="https://github.com/thesullivantage/Happnen/graphs/contributors">GitHub Repository</a>
+                                            <a href="https://github.com/thesullivantage/Happnen/graphs/contributors">GitHub
+                                                Repository</a>
                                         </h3>
                                         <br>
-                                        <p>A minimalistic event creation and management web application that utilizes encrypted functionality to securely create events countless types for a users, social and hermetic alike. </p>
-                                        <p style="margin: 0">For the deployed site, after logging in click on the map icon in the floating action bar to access the site itself.</p>
+                                        <p>A minimalistic event creation and management web application that utilizes
+                                            encrypted functionality to securely create events countless types for a
+                                            users, social and hermetic alike. </p>
+                                        <p style="margin: 0">For the deployed site, after logging in click on the map
+                                            icon in the floating action bar to access the site itself.</p>
 
                                     </div>
                                     <!-- end .portfolio-item-description -->
@@ -449,7 +458,7 @@
                                     <div class="portfolio-item-description">
 
                                         <h3 style="position: relative; margin: 0px auto;">
-                                            <a href="https://danezorrilla.github.io/BoozeHub/">BoozeHub (Deployed)</a>
+                                            <a href="https://danezorrilla.github.io/BoozeHub/"> Deployed Site</a>
                                         </h3>
                                         <br>
                                         <h3 style="position: relative; margin: 0px auto;">
@@ -488,8 +497,7 @@
                                     <div class="portfolio-item-description">
 
                                         <h3>
-                                            <a href="https://thesullivantage.github.io/Nike-Trivia/">Nike Trivia
-                                                (Deployed)</a>
+                                            <a ref="https://thesullivantage.github.io/Nike-Trivia/">Deployed</a>
                                         </h3>
                                         <br>
                                         <h3>
@@ -525,18 +533,14 @@
                                 <div class="portfolio-item-overlay">
 
                                     <div class="portfolio-item-description">
-
-                                        <h3 style="color: #feb312;">Liri Bot</h3>
                                         <br>
                                         <h3>
                                             <a href="https://github.com/thesullivantage/Liri-Bot">GitHub Repository</a>
                                         </h3>
                                         <br>
-                                        <p>A node-based bot that takes two command line inputs (from GitBash) and
-                                            returns information
-                                            from imdB, Spotify, and Twitter. Run "npm install" in GitBash to download
-                                            the
-                                            necessary packages.</p>
+                                        <p>A Node.js bot that takes two command line inputs (from GitBash) and
+                                            returns data
+                                            from imdB, Spotify, and Twitter. Install packages via npm.</p>
 
                                     </div>
                                     <!-- end .portfolio-item-description -->
@@ -567,7 +571,7 @@
                             <div class="cv-section-title">
 
                                 <h2>
-                                    <span>Technical Skills</span>
+                                    <span>Front End Skills</span>
                                 </h2>
 
                             </div>
@@ -584,24 +588,17 @@
                 <div class="row">
                     <div class="span3">
 
-                        <div class="pie-chart" data-percent="10" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
+                        <div class="icon-contain">
+                            <i class="icon fab fa-html5"></i>
                         </div>
                         <!-- end .pie-chart -->
 
                         <div class="pie-chart-description">
 
                             <h3 class="text-uppercase">Html5 &amp; Css3</h3>
-                            <p>Beginner, 1 > years</p>
+                            <p> &lt; 1 year </p>
 
-                            <p>I learned how to build websites, optimized for mobile, using a variety of CSS style
+                            <p>Built and styled websites, optimized for mobile, using a variety of CSS style
                                 elements in conjunction with CSS frameworks like Materialize and Bootstrap.</p>
 
                         </div>
@@ -611,25 +608,18 @@
                     <!-- end .span3 -->
                     <div class="span3">
 
-                        <div class="pie-chart" data-percent="15" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
+                        <div class="icon-contain">
+                            <i class="fab fa-js"></i>
                         </div>
                         <!-- end .pie-chart -->
 
                         <div class="pie-chart-description">
 
-                            <h3>Javascript</h3>
-                            <p>Beginner, 1 > years</p>
+                            <h3>Javascript (Including ES6)</h3>
+                            <p> &lt; 1 year</p>
 
-                            <p>I have built a variety of javascript-based applications for web, also utilizing the
-                                jQuery library.</p>
+                            <p>Built a variety of javascript-based applications for web, utilizing a number of
+                                libraries, particularly jQuery.</p>
 
                         </div>
                         <!-- end .pie-chart-description -->
@@ -638,56 +628,27 @@
                     <!-- end .span3 -->
                     <div class="span3">
 
-                        <div class="pie-chart" data-percent="15" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
+                        <div class="icon-contain">
+                            <i class="fab fa-react"></i>
                         </div>
                         <!-- end .pie-chart -->
 
+
+                        <!-- Do I need to lump this in with other technologies -->
                         <div class="pie-chart-description">
 
-                            <h3>Node.js</h3>
-                            <p>Beginner, 1 > years</p>
+                            <h3>React.js</h3>
+                            <p> &lt; 1 year</p>
 
-                            <p>During my coding boot camp, I have learned how to use a variety of modules that utilize
-                                the npm platform, and constructor functions.</p>
+                            <p>Able to create deeply nested components that are dynamically rendered to the page for a
+                                variety of web applications.</p>
 
                         </div>
                         <!-- end .pie-chart-description -->
 
                     </div>
                     <!-- end .span3 -->
-                    <div class="span3">
 
-                        <div class="pie-chart" data-percent="15" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
-                        </div>
-                        <!-- end .pie-chart -->
-
-                        <div class="pie-chart-description">
-
-                            <h3>Back-end Development</h3>
-                            <p>Beginer, 1 > years</p>
-
-                            <p>I have learned a variety of back-end skills during my coding boot camp.</p>
-
-                        </div>
-                        <!-- end .pie-chart-description -->
-
-                    </div>
                     <!-- end .span3 -->
                 </div>
                 <!-- end .row -->
@@ -695,6 +656,82 @@
 
 
             </div>
+
+
+            <!-- Begin  -->
+
+            <div id="technical-skills">
+
+                <div class="row">
+                    <div class="span12">
+
+                        <div class="cv-section">
+
+                            <div class="cv-section-title">
+
+                                <h2>
+                                    <span>Back End Skills</span>
+                                </h2>
+
+                            </div>
+                            <!-- end .cv-section-title -->
+
+                        </div>
+                        <!-- end .cv-section -->
+
+                    </div>
+                    <!-- end .span12 -->
+                </div>
+                <!-- end .row -->
+
+                <div class="row">
+                    <div class="span3">
+
+                        <div class="icon-contain">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <!-- end .pie-chart -->
+
+                        <div class="pie-chart-description">
+
+                            <h3 class>Node.js</h3>
+                            <p>&lt; 1 year</p>
+
+                            <p>Utilizes the Node.js library in conjunction primarily with Express to create server-side
+                                MVC-based tasks.</p>
+                        </div>
+                        <!-- end .pie-chart-description -->
+
+                    </div>
+                    <!-- end .span3 -->
+                    <div class="span3">
+
+                        <div class="icon-contain">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <!-- end .pie-chart -->
+
+                        <div class="pie-chart-description">
+
+                            <h3>Database Interaction & Management</h3>
+                            <p>&lt; 1 year</p>
+
+                            <p>Uses MongoDB (primarily with Mongoose ODM) as well as SQL (primarily with Sequelize ORM)
+                                in a CRUD-based approach to interact with database data in effective ways. Also able to
+                                manage data via database manager and the command line.</p>
+                        </div>
+                        <!-- end .pie-chart-description -->
+
+                    </div>
+                    <!-- end .span3 -->
+                    <!-- end .span3 -->
+                </div>
+                <!-- end .row -->
+
+            </div>
+
+
+
             <div id="technical-skills">
 
                 <div class="row">
@@ -722,25 +759,18 @@
                 <div class="row">
                     <div class="span3">
 
-                        <div class="pie-chart" data-percent="30" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
+                        <div class="icon-contain">
+                            <i class="fas fa-object-group"></i>
                         </div>
-                        <!-- end .pie-chart -->
 
                         <div class="pie-chart-description">
 
                             <h3 class="text-uppercase">Autodesk Fusion360 (CAD)</h3>
-                            <p>Beginner, 2 years</p>
+                            <p> ~ 2 years</p>
 
-                            <p>I have designed a variety of objects that I turned into 3D printed implements, some of
-                                which had moving ready-made moving joints.</p>
+                            <p>Designed a variety of model objects which I turned into 3D printed implements, some of
+                                which
+                                had ready-made moving parts.</p>
 
                         </div>
                         <!-- end .pie-chart-description -->
@@ -749,27 +779,20 @@
                     <!-- end .span3 -->
                     <div class="span3">
 
-                        <div class="pie-chart" data-percent="35" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
+                        <div class="icon-contain">
+                            <i class="fas fa-microscope"></i>
                         </div>
                         <!-- end .pie-chart -->
 
                         <div class="pie-chart-description">
 
-                            <h3>Product Development</h3>
-                            <p>Begninner, 4 years</p>
+                            <h3>Product Research & Development</h3>
+                            <p> ~ 4 years</p>
 
-                            <p>In both of the research positions that I have held,
-                                I have designed both engineering and consumer level implements out of metals (machined)
-                                and plastics (3D printed) for applications that include aerospace (fuel injection),
-                                education (spectrometry), and hobby items.
+                            <p>
+                                Designed both engineering and consumer level implements out of metals (machined)
+                                and plastics (3D printed). Applications included aerospace (fuel injection),
+                                optics education, and hobbyist friendly.
                             </p>
 
                         </div>
@@ -779,27 +802,21 @@
                     <!-- end .span3 -->
                     <div class="span3">
 
-                        <div class="pie-chart" data-percent="25" data-barColor="#ffb300" data-trackColor="#d9d9d9"
-                            data-lineWidth="8" data-barSize="160">
-
-                            <div class="pie-chart-percent">
-                                <span></span>
-                                %
-                            </div>
-                            <!-- end .pie-chart-percent -->
-
+                        <div class="icon-contain">
+                            <i class="fas fa-tint"></i>
                         </div>
                         <!-- end .pie-chart -->
 
                         <div class="pie-chart-description">
 
                             <h3>Inkscape (Graphic Design)</h3>
-                            <p>Beginner, 3 years</p>
+                            <p> ~ 3 years</p>
 
-                            <p>I began doing personal laser engraving projects during my freshman year of college, in
-                                which I needed to convert images and graphics to black and white line drawings, and I
-                                used this free graphic design software to do so. Along the way, I learned a variety of
-                                different functionalities for creating graphics.</p>
+                            <p>Began conducting personal laser engraving projects during my freshman year of college,
+                                in
+                                which images and graphics converted to black and white line drawings, using the free
+                                graphic design software Inkscape to do so. Along the way, learned a variety of
+                                different functionalities in the practice of creating logos and graphics.</p>
 
                         </div>
                         <!-- end .pie-chart-description -->
