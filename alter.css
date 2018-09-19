@@ -12,3 +12,11 @@
 .ifc-down4 {
   margin: 0 auto;
 }
+
+#back-to-top {
+  font-size: 24px;
+}
+
+.fa.fa-caret-up {
+  font-size: 24px;
+}
