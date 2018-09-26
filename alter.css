@@ -17,6 +17,16 @@
   font-size: 24px;
 }
 
+
+/* The below isn't working for some reason */
 .fa.fa-caret-up {
   font-size: 24px;
+}
+
+#resumet {
+  font-size: 72px;
+  line-height: 90px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
 }
