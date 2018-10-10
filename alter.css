@@ -19,8 +19,22 @@
 
 
 /* The below isn't working for some reason */
-.fa.fa-caret-up {
-  font-size: 24px;
+#back-to-top i {
+  margin-right: 2px;
+  font-size: 24px
+}
+
+#footer p {
+  font-size: 17px;
+}
+
+
+#mobile-menu {
+  background-color: #3b414e;
+}
+
+#mobile-menu li a {
+ text-align: center;
 }
 
 #resumet {
